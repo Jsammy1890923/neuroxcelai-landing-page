@@ -4,7 +4,7 @@ Professional launch page for NeuroXcelAi — an AI-powered executive brief gener
 
 ## Overview
 
-NeuroXcelAi is a cutting-edge SaaS platform that transforms complex business data into actionable executive briefs using advanced AI technology. This landing page showcases the platform's features, pricing, and value proposition.
+NeuroXcelAi is a cutting-edge C-TaaS (Content Transformation as a Service) that transforms complex business data into actionable executive briefs using advanced AI technology combined with human expertise. This landing page showcases the service's features, pricing, and value proposition.
 
 ## Features
 
