@@ -1,87 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NeuroXcelAi</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Montserrat&family=Audiowide&display=swap');
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroXcelAi</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Montserrat&family=Audiowide&display=swap');
 
-      body {
-        font-family: 'Montserrat', sans-serif;
-        background-color: #0a0d12;
-        color: #f9fafb;
-      }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0a0d12;
+      color: #ffffff;
+    }
 
-      h1, h2, h3, .heading {
-        font-family: 'Orbitron', sans-serif;
-      }
+    h1, h2, h3, .heading {
+      font-family: 'Orbitron', sans-serif;
+    }
 
-      .brand-neuro {
-        color: #00FFFF;
-        text-shadow: 0 0 8px #00FFFF;
-      }
+    .brand-neuro {
+      color: #00ffff;
+      text-shadow: 0 0 8px #39FF14;
+    }
 
-      .brand-xcel {
-        color: #0074D9;
-      }
+    .brand-xcel {
+      color: #0074D9;
+    }
 
-      .brand-ai {
-        color: #39FF14;
-      }
+    .brand-ai {
+      color: #39FF14;
+    }
 
-      .highlight-btn {
-        background-color: #39FF14;
-        color: #0a0d12;
-        transition: background-color 0.3s ease;
-      }
+    .highlight-btn {
+      background-color: #39FF14;
+      color: #0a0d12;
+    }
 
-      .highlight-btn:hover {
-        background-color: #2edf10;
-      }
+    .highlight-btn:hover {
+      background-color: #2edf10;
+    }
 
-      .outline-btn {
-        border: 2px solid #39FF14;
-        color: #39FF14;
-        transition: all 0.3s ease;
-      }
+    .outline-btn {
+      border-color: #39FF14;
+      color: #39FF14;
+    }
 
-      .outline-btn:hover {
-        background-color: #39FF14;
-        color: #0a0d12;
-      }
-    </style>
-  </head>
-  <body class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-    <header class="w-full py-6 bg-black shadow-xl">
-      <h1 class="text-5xl font-extrabold">
-        <span class="brand-neuro">Neuro</span><span class="brand-xcel">Xcel</span><span class="brand-ai">Ai</span>
-      </h1>
-    </header>
+    .outline-btn:hover {
+      background-color: #39FF14;
+      color: #0a0d12;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+  <header class="w-full py-6 bg-gray-900">
+    <h1 class="text-5xl font-extrabold">
+      <span class="brand-neuro">Neuro</span><span class="brand-xcel">Xcel</span><span class="brand-ai">Ai</span>
+    </h1>
+  </header>
 
-    <main class="py-20 max-w-4xl">
-      <h2 class="text-6xl font-extrabold leading-tight mb-6 heading">
-        Stop Presenting Text. <br />Start Presenting <span class="brand-xcel">Truth</span>.
-      </h2>
-      <p class="italic text-xl mb-8 text-gray-300">
-        "When the stakes are high, you don’t need more content. You need clarity, accuracy, and visuals that make the truth undeniable."
-      </p>
-      <p class="text-lg text-gray-400 mb-12">
-        Executive Content Transformation in <strong>48 Hours</strong>. We turn your complex reports and filings into rigorously verified, presentation-ready Visual Briefs — guaranteed.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-6 justify-center">
-        <a href="request.html" class="highlight-btn font-bold py-3 px-8 rounded-full">
-          Request Your 48-Hour Visual Brief
-        </a>
-        <a href="same-day.html" class="outline-btn font-bold py-3 px-8 rounded-full">
-          Same-Day Service (+50% Base Price)
-        </a>
-      </div>
-    </main>
+  <main class="py-20 max-w-4xl">
+    <h2 class="text-6xl font-extrabold leading-tight mb-6 heading">
+      Stop Presenting Text. <br />Start Presenting <span class="brand-xcel">Truth</span>.
+    </h2>
+    <p class="italic text-xl mb-8">
+      "When the stakes are high, you don’t need more content. You need clarity, accuracy, and visuals that make the truth undeniable."
+    </p>
+    <p class="text-lg text-gray-300 mb-12">
+      Executive Content Transformation in <strong>48–72 Hours.</strong> We turn your complex reports and filings into rigorously verified, presentation-ready Visual Briefs — guaranteed.
+    </p>
+    <p class="text-md text-green-400 mb-4">
+      Same-Day Service available with a <strong>50% surge fee</strong> for urgent, decision-critical needs.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+      <a href="/visual-brief" class="highlight-btn font-bold py-3 px-8 rounded-full">
+        Request Your 48-Hour Visual Brief
+      </a>
+      <a href="/same-day-service" class="outline-btn border-2 font-bold py-3 px-8 rounded-full">
+        See Our Same-Day Service
+      </a>
+    </div>
+  </main>
 
-    <footer class="py-10 bg-gray-900 w-full text-sm text-gray-500">
-      <p>&copy; 2025 <span class="brand-neuro">Neuro</span><span class="brand-xcel">Xcel</span><span class="brand-ai">Ai</span>. All rights reserved.</p>
-    </footer>
-  </body>
+  <footer class="py-10 bg-gray-800 w-full text-sm text-gray-400">
+    <p>&copy; 2025 <span class="brand-neuro">Neuro</span><span class="brand-xcel">Xcel</span><span class="brand-ai">Ai</span>. All rights reserved.</p>
+  </footer>
+</body>
 </html>
