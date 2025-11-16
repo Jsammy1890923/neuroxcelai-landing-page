@@ -1,87 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeuroXcelAi | Executive Content Transformation</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroXcelAi</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0d1117;
-            color: #e5e7eb;
-        }
-        .accent-color {
-            color: #00bcd4;
-        }
-        .accent-bg {
-            background-color: #00bcd4;
-        }
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Montserrat&family=Audiowide&display=swap');
+
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #0a0d12;
+        color: #ffffff;
+      }
+
+      .brand-neuro {
+        color: #001f3f;
+      }
+
+      .brand-xcel {
+        color: #0074D9;
+      }
+
+      .brand-ai {
+        color: #39FF14;
+      }
     </style>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'primary-dark': '#1e293b',
-                        'card-bg': '#1f2937',
-                        'accent': '#00bcd4',
-                    }
-                }
-            }
-        }
-    </script>
-</head>
-<body>
-    <div class="min-h-screen">
-        <header class="bg-primary-dark shadow-lg">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-                <div class="text-2xl font-bold text-white">NeuroXcel<span class="accent-color">Ai</span></div>
-                <nav>
-                    <a href="#services" class="text-gray-300 hover:text-accent transition duration-150 mr-6">Services</a>
-                    <a href="#process" class="text-gray-300 hover:text-accent transition duration-150">Methodology</a>
-                </nav>
-            </div>
-        </header>
+  </head>
+  <body class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <header class="w-full py-6 bg-gray-900">
+      <h1 class="text-4xl font-extrabold">
+        <span class="brand-neuro">Neuro</span><span class="brand-xcel">Xcel</span><span class="brand-ai">Ai</span>
+      </h1>
+    </header>
 
-        <!-- Hero Section -->
-        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-            <p class="text-sm font-semibold uppercase text-accent mb-4 tracking-wider">Content Transformation as a Service (C-TaaS)</p>
-            <h1 class="text-6xl sm:text-7xl font-extrabold text-white mb-6 leading-tight">
-                Stop Presenting Text.<br class="hidden sm:inline"> Start Presenting <span class="accent-color">Truth</span>.
-            </h1>
-            <h2 class="text-xl sm:text-2xl text-gray-400 max-w-4xl mx-auto mb-10">
-                Executive Content Transformation in <strong>48 Hours</strong>. We turn your complex reports and filings into rigorously verified, presentation-ready Visual Briefs—guaranteed.
-            </h2>
+    <main class="py-16 max-w-3xl">
+      <h2 class="text-5xl font-extrabold leading-tight mb-6">
+        Stop Presenting Text. <br />Start Presenting <span class="brand-xcel">Truth</span>.
+      </h2>
+      <p class="italic text-lg mb-8">
+        "When the stakes are high, you don’t need more content. You need clarity, accuracy, and visuals that make the truth undeniable."
+      </p>
+      <p class="text-lg text-gray-300 mb-12">
+        Executive Content Transformation in <strong>48 Hours.</strong> We turn your complex reports and filings into rigorously verified, presentation-ready Visual Briefs — guaranteed.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#" class="bg-blue-400 hover:bg-blue-500 text-black font-bold py-3 px-6 rounded-full">
+          Request Your 48-Hour Visual Brief
+        </a>
+        <a href="#" class="border border-blue-400 text-blue-400 hover:text-white hover:bg-blue-400 font-bold py-3 px-6 rounded-full">
+          See Our Same-Day Service
+        </a>
+      </div>
+    </main>
 
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#pricing" class="px-8 py-4 bg-accent text-primary-dark font-bold text-lg rounded-xl shadow-lg hover:bg-opacity-90 transition duration-300">
-                    Request Your 48-Hour Visual Brief
-                </a>
-                <a href="#rush-service" class="px-8 py-4 border border-accent text-accent font-bold text-lg rounded-xl shadow-md hover:bg-accent hover:text-primary-dark transition duration-300">
-                    See Our Same-Day Service
-                </a>
-            </div>
-        </main>
-
-        <!-- Process Section -->
-        <section id="process" class="bg-card-bg py-20 px-6">
-            <h2 class="text-4xl font-bold text-center mb-12">The NeuroXcelAi Rigor Engine: Speed Meets Verification.</h2>
-            <div class="grid md:grid-cols-3 gap-10">
-                <div class="bg-primary-dark rounded-xl p-6 border-t-4 border-accent">
-                    <h3 class="text-2xl font-bold accent-color mb-3">1. Deep Source Synthesis</h3>
-                    <p class="text-gray-300">We use proprietary <strong>Advanced Synthesis Architecture</strong> to process and connect insights across up to 30 documents.<br><br><strong>Outcome:</strong> Your final brief is grounded in source data, avoiding the generic responses of basic AI tools.</p>
-                </div>
-                <div class="bg-primary-dark rounded-xl p-6 border-t-4 border-accent">
-                    <h3 class="text-2xl font-bold accent-color mb-3">2. Constraint-Driven Output</h3>
-                    <p class="text-gray-300">Every analysis is guided by a <strong>Strategic Inquiry Framework</strong>, forcing the output into an expert perspective (e.g., CRO, Strategy Director).<br><br><strong>Outcome:</strong> Focused, actionable answers that immediately address the core risk or opportunity.</p>
-                </div>
-                <div class="bg-primary-dark rounded-xl p-6 border-t-4 border-accent">
-                    <h3 class="text-2xl font-bold accent-color mb-3">3. Brand-Consistent Visuals</h3>
-                    <p class="text-gray-300">We transform verified data into stunning, brand-consistent visuals using a <strong>Visual Architect Framework</strong>.<br><br><strong>Outcome:</strong> Presentation-ready assets that match your style and maintain visual consistency across campaigns.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-</body>
+    <footer class="py-8 bg-gray-800 w-full text-sm text-gray-400">
+      <p>&copy; 2025 <span class="brand-neuro">Neuro</span><span class="brand-xcel">Xcel</span><span class="brand-ai">Ai</span>. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
